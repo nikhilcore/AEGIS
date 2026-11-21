@@ -1,6 +1,13 @@
 node_modules/
 dist/
+
 .env
 .env.*
 !.env.example
-*.json
+
+# Firebase service account credentials
+serviceAccountKey.json
+firebase-service-account.json
+
+# Logs
+*.log

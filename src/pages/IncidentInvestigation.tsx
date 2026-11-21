@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { useSimulationStore } from '../store/simulationStore'
 import {
-  AlertTriangle, Clock, Shield, Activity, Search, ChevronRight, X,
+  AlertTriangle, Clock, Shield, Activity, Search, ChevronRight,
   FileText, MessageSquare, CheckCircle2, CircleDot,
 } from 'lucide-react'
 
