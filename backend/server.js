@@ -25,8 +25,8 @@ const PORT = process.env.PORT || 5000
 const allowedOrigins = [
   'http://localhost:5173',
   'http://localhost:5174',
+  'https://aegis-mu-ten.vercel.app',
 ]
-
 app.use(
   cors({
     origin: (origin, callback) => {
